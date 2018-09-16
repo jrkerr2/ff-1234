@@ -1,7 +1,7 @@
 var dataArray = [
     {
-        "name":"Ahmed",
-        "photo":"file://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Bobby Douglass",
+        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         "scores":[
             5,
             1,
