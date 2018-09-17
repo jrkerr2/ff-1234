@@ -2,8 +2,9 @@
 
 var math = require('mathjs');
 
-function compareArrays(array1,array2) {
-    // placholder function
+exports.compareArrays = function(array1,array2) {
+    
+    // take in user data in array, compare to existing arrays
     var diffArray = [];
     var totalDiff;
     var arr1 = array1;
