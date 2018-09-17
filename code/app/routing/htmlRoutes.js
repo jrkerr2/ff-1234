@@ -1,18 +1,18 @@
 var express = require('express');
-var app = express();
+var router = express.Router();
 var path = require('path');
 
 // viewed at http://localhost:3000
-app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/home.html'));
+router.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/home.html'));
 });
 
-app.get('/home', function(req, res) {
-    res.sendFile(path.join(__dirname + '/home.html'));
+router.get('/home', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/home.html'));
 });
 
-app.get('/survey', function(req, res) {
-    res.sendFile(path.join(__dirname + '/survey.html'));
+router.get('/survey', function(req, res) {
+    res.sendFile(path.join(__dirname, '../public/survey.html'));
 });
 
-app.listen(3000);
+module.exports = router;
