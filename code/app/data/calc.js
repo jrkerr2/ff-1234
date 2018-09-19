@@ -10,12 +10,12 @@ exports.compareArrays = function(array1,array2) {
     var arr1 = array1;
     var arr2 = array2;
     for (i = 0; i < arr1.length; i++) {
-        diffArray[i] == Math.abs(arr1[i] - arr2[i]);
+        diffArray[i] = Math.abs(arr1[i] - arr2[i]);
         console.log(diffArray[i]);      
        
     }
     
-    totalDiff == math.sum(diffArray);
+    totalDiff = math.sum(diffArray);
     console.log(totalDiff);
 
     return totalDiff;
