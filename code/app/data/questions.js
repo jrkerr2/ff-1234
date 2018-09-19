@@ -33,13 +33,15 @@ var questionArray = [
       }
 ]
 
-var answerArray = [
-    {
-        "5": "(Strongly Agree)",
-        "4": "(Agree)",
-        "3": "(Neutral)",
-        "2": "(Disagree)",
-        "1": "(Strongly Disagree)"
+// var answerArray = [
+//     {
+//         "5": "(Strongly Agree)",
+//         "4": "(Agree)",
+//         "3": "(Neutral)",
+//         "2": "(Disagree)",
+//         "1": "(Strongly Disagree)"
 
-      }
-]
+//       }
+// ]
+
+module.exports = questionArray;

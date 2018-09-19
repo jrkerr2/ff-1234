@@ -20,5 +20,4 @@ exports.compareArrays = function(array1,array2) {
 
     return totalDiff;
 
-
 }
