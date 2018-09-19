@@ -14,6 +14,23 @@ var dataArray = [
             4,
             1
           ]
+      },
+    
+      {
+        "name":"Somebody Somewhere",
+        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/aa3.jpg",
+        "scores":[
+            3,
+            1,
+            2,
+            3,
+            5,
+            1,
+            5,
+            5,
+            3,
+            2
+          ]
       }
 ]
 
