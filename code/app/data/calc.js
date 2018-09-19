@@ -16,7 +16,7 @@ exports.compareArrays = function(array1,array2) {
     }
     
     totalDiff = math.sum(diffArray);
-    console.log(totalDiff);
+    // console.log(totalDiff);
 
     return totalDiff;
 
