@@ -15,6 +15,40 @@ var dataArray = [
             1
           ]
       },
+
+      {
+        "name":"Bobby Darrin",
+        "photo":"file://8code/mpr/mpr/shrinknp_400_400/p/6/005/06/1bd/3435aa3.jpg",
+        "scores":[
+            3,
+            2,
+            1,
+            2,
+            3,
+            4,
+            5,
+            4,
+            3,
+            2
+          ]
+      },
+
+      {
+        "name":"Terry Douglass",
+        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores":[
+            2,
+            3,
+            4,
+            5,
+            4,
+            3,
+            2,
+            1,
+            5,
+            4
+          ]
+      },
     
       {
         "name":"Somebody Somewhere",

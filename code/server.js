@@ -1,6 +1,8 @@
 // Dependencies
 var express = require("express");
 var compare = require("./app/data/calc");
+var data = require("./app/data/friends");
+var math = require('mathjs');
 
 var app = express();
 var PORT = process.env.PORT || 3000;
@@ -51,9 +53,27 @@ var testArray = [
     }
 ];
 
-var returnDiff = compare.compareArrays(testArray[0].scores, testArray[1].scores);
-console.log("This is my return from the compare func: " + returnDiff);
-console.log("Made it to compare.");
+// var returnDiff = compare.compareArrays(testArray[0].scores, testArray[1].scores);
+// console.log("This is my return from the compare func: " + returnDiff);
+// console.log("Made it to compare1.");
+
+var tempArray = [];
+var newMatch = 0;
+console.log("Length of my array: " + data.length);
+
+for (i=0; i < data.length; i++) { 
+  
+  var returnDiff2 = compare.compareArrays(testArray[1].scores, data[i].scores);
+  tempArray.push(returnDiff2);
+  console.log("This is element " + i + "of the new array...");
+  console.log(tempArray[i]);
+}
+
+newMatch = math.min(tempArray);
+console.log(newMatch);
+
+  
+
 
 
 
