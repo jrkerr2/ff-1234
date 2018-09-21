@@ -66,6 +66,6 @@ var dataArray = [
             2
           ]
       }
-]
+];
 
 module.exports = dataArray;
