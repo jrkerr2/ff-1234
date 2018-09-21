@@ -39,18 +39,19 @@ findMinIndex = function(array) {
 // master function
 exports.compareFriends = function(dataArray) {
     var tempArray = [];
-    var lastIdx = data.length - 1;
+    var lastIndex = data.length - 1;
     var totalReturnDiff = 0;
 
-    for (let i=0; i < lastIdx; i++) {     
-        totalReturnDiff = compare.compareArrays(dataArray[lastIdx].scores, dataArray[i].scores);
+    for (let i=0; i < lastIndex; i++) {     
+        totalReturnDiff = compare.compareArrays(dataArray[lastIndex].scores, dataArray[i].scores);
         tempArray.push(totalReturnDiff);
         console.log("This is element " + i + "of the new array...");
         console.log(tempArray[i]);
     }
 
-    var idxMatch = findMinIndex(tempArray);
-    return idxMatch;
+    var indexMatch = findMinIndex(tempArray);
+    return indexMatch;
+
 };
 
 
