@@ -1,8 +1,8 @@
 var dataArray = [
     {
-        "name":"Bobby Douglass",
-        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
+        "name": "Bobby Douglass",
+        "photo": "file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores": [
             5,
             1,
             4,
@@ -17,9 +17,9 @@ var dataArray = [
       },
 
       {
-        "name":"Bobby Darrin",
-        "photo":"file://8code/mpr/mpr/shrinknp_400_400/p/6/005/06/1bd/3435aa3.jpg",
-        "scores":[
+        "name": "Bobby Darrin",
+        "photo": "file://8code/mpr/mpr/shrinknp_400_400/p/6/005/06/1bd/3435aa3.jpg",
+        "scores" :[
             3,
             2,
             1,
@@ -34,9 +34,9 @@ var dataArray = [
       },
 
       {
-        "name":"Terry Douglass",
-        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
+        "name": "Terry Douglass",
+        "photo": "file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "scores": [
             2,
             3,
             4,
@@ -51,9 +51,26 @@ var dataArray = [
       },
     
       {
-        "name":"Somebody Somewhere",
-        "photo":"file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/aa3.jpg",
-        "scores":[
+        "name": "Somebody Somewhere",
+        "photo": "file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/aa3.jpg",
+        "scores": [
+            3,
+            1,
+            2,
+            3,
+            5,
+            1,
+            5,
+            5,
+            3,
+            2
+          ]
+      },
+
+      {
+      "name": "Onemoment Intime",
+        "photo": "file://code/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/aa3.jpg",
+        "scores": [
             3,
             1,
             2,
