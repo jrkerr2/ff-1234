@@ -1,1 +1,1 @@
-## Friend Finder Application (in progress...9/21/2018, 90% complete -- just modal,deploy, & release notes remain)
+## Friend Finder Application (in progress...9/21/2018, 90% complete -- just modal, Heroku deploy, & release notes remain)
