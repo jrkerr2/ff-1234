@@ -1,1 +1,1 @@
-'web: ./node_modules/.bin/forever -m 5 serever.js' 
+web: node code/server.js
