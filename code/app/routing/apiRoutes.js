@@ -22,7 +22,7 @@ router.post("/api/friends", function(req, res) {
 
   // Add new friend data posted through the URL
   friends.push(req.body);
-  res.send(friends);
+  
   console.log(req.body);
   // console.log(friends);
 
@@ -30,10 +30,11 @@ router.post("/api/friends", function(req, res) {
   var bestMatch = calc.compareFriends(friends);
 
   // Get the name, photo link of the friend that is the closest match
-  bestMatchName = friends[bestMatch].name;
-  bestMatchPhoto = friends[bestMatch].photo;
+  var bestMatchName = friends[bestMatch].name;
+  var bestMatchPhoto = friends[bestMatch].photo;
   console.log("This is your match: " + bestMatchName);
   console.log("This is his/her photo: " + bestMatchPhoto);
+  res.send(friends[bestMatch]);
 
 });
 
