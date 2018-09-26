@@ -16,6 +16,6 @@ app.use(htmlRoutes);
 
 // listen on port 3000 (or Heroku-assigned port)
 app.listen(PORT, function() {
-  console.log("App IS listening on Express() PORT " + PORT);
+  console.log(" --- App IS listening on Express() PORT " + PORT + " ---");
 
 });

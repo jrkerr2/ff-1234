@@ -1,7 +1,7 @@
 var dataArray = [
     {
         "name": "Bobby Douglass",
-        "photo": "./images/1.jpg",
+        "photo": "../app/data/images/1.jpg",
         "scores": [
             5,
             1,
@@ -18,7 +18,7 @@ var dataArray = [
 
       {
         "name": "Bobby Darrin",
-        "photo": "./images/2.jpg",
+        "photo": "../app/data/images/2.jpg",
         "scores" :[
             3,
             2,
@@ -35,7 +35,7 @@ var dataArray = [
 
       {
         "name": "Terry Douglass",
-        "photo": "./images/3.jpg",
+        "photo": "../app/data/images/3.jpg",
         "scores": [
             2,
             3,
@@ -52,7 +52,7 @@ var dataArray = [
     
       {
         "name": "Somebody Somewhere",
-        "photo": "./images/4.jpg",
+        "photo": "../app/data/images/4.jpg",
         "scores": [
             3,
             1,
@@ -69,7 +69,7 @@ var dataArray = [
 
       {
       "name": "Onemoment Intime",
-        "photo": "./images/5.jpg",
+        "photo": "../app/data/images/5.jpg",
         "scores": [
             3,
             1,
