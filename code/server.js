@@ -15,11 +15,14 @@ app.use(bodyParser.json());
 app.use(apiRoutes);
 app.use(htmlRoutes);
 
-app.use(express.static("app/data/images/"));
-// app.use(express.static(path.join(__dirname, '../app/data/images')));
+// app.use(express.static("app/data/images/"));
+// app.use(express.static(path.join(__dirname, 'public')));process.env.PWD = process.cwd();
+app.use(express.static(path.join(process.env.PWD, 'app', 'data', 'images')));
+
 
 // listen on port 3000 (or Heroku-assigned port)
 app.listen(PORT, function() {
   console.log(" --- App IS listening on Express() PORT " + PORT + " ---");
+  console.log(process.cwd());
 
 });
