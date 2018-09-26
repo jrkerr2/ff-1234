@@ -20,7 +20,7 @@
 # Technical Debt
     ## There are LOTS of improvements needed for a real-world application (data validation, upload 
     ## functionality to remove pathing issues, real database implmention, etc.)
-    ## defect where the image is not rendered in the popped modal on Submit
+    ## defect where the image is not rendered in the popped modal on Submit (works locally)
     ## styling improvements needed for the modal
     ## styling improvements needed for the home and survey pages
     ## debugging comments still exist on server and client side
