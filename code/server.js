@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(apiRoutes);
 app.use(htmlRoutes);
 
-app.use(express.static("/app/data/images/"));
+app.use(express.static("app/data/images/"));
 
 // listen on port 3000 (or Heroku-assigned port)
 app.listen(PORT, function() {
